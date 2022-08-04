@@ -1,7 +1,6 @@
-body {
+* {
     font-family: 'Roboto', 'Tahoma', sans-serif;
-    max-width: 1200px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -14,4 +13,9 @@ ul {
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
