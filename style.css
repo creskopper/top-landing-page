@@ -5,6 +5,8 @@
 
 }
 
+
+/* Remove default styling */
 ul {
     list-style: none;
     margin: 0;
@@ -16,14 +18,17 @@ a {
     color: #E5E7EB;
 }
 
+
+/* button styles */
 .btn {
-    padding: 8px 24px;
+    padding: 8px 32px;
     border-radius: 8px;
     border: none;
     font-size: 18px;
     font-weight: 700;
     color: #f9faf8;
 }
+
 
 /* container class to center everything within a maximum width*/
 .container {
@@ -53,12 +58,12 @@ header .container {
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
 }
 
 /* Hero section */
 .hero {
-    height: 400px;
+    height: 500px;
     display: flex;
     align-items: center;
 }
@@ -70,7 +75,7 @@ header .container {
 
 .hero-main-text {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 700;
     color: #f9faf8;
     margin-block: 16px;
 }
@@ -86,8 +91,9 @@ header .container {
 }
 
 .hero-image {
-    background-color: #E5E7EB;
-    width: 600px;
+    width: 700px;
+    height: 300px;
+    object-fit: cover;
 }
 
 /* Information section */
@@ -119,6 +125,7 @@ header .container {
     border: 3px solid #3882f6;
     border-radius: 16px;
     margin-block: 16px;
+    object-fit: cover;
 }
 
 /* Quote section */
@@ -126,7 +133,7 @@ header .container {
     height: 400px;
     background-color: #e5e7eb;
     font-size: 36px;
-    font-weight: light italic;
+    font-style: italic;
     color: #1f2937;
     display: flex;
     justify-content: center;
