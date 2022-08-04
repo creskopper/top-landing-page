@@ -89,4 +89,33 @@ header .container {
     width: 600px;
 }
 
+/* Information section */
+.info {
+    height: 500px;
+    text-align: center;
+    font-size: 18px;
+}
 
+.info-header-text {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    margin-block: 32px;
+}
+
+.info-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info-card {
+    width: 200px;
+}
+.card-image {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882f6;
+    border-radius: 16px;
+    margin-block: 16px;
+}
