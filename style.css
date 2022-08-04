@@ -15,7 +15,78 @@ a {
     color: #E5E7EB;
 }
 
+.btn {
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+/* container class to center everything within a maximum width*/
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+header, .hero {
+    background-color: #1f2937;
+    font-size: 18px;
+}
+
+/* Header */
+header .container {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-text {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* Hero section */
+.hero {
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+.hero .container {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin-block: 16px;
+}
+
+.hero-secondary-text {
+    color: #e5e7eb;
+    margin-block: 16px;
+}
+
+.hero-cta {
+    background-color: #3882f6;
+    margin-top: 16px;
+}
+
+.hero-image {
+    background-color: #E5E7EB;
+    width: 600px;
+}
+
+
